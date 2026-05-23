@@ -1,0 +1,15 @@
+*{
+    background-color: forestgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.fourOfour{
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 16px;
+    overflow-x: hidden;
+}

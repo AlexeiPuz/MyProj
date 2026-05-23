@@ -1,0 +1,145 @@
+*{
+    background-color: forestgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.name{
+    width: 600px;
+    margin: 5px auto;
+    border-radius: 24px;
+    padding: 10px 50px;
+    background-color: antiquewhite;
+}
+.text{
+    width: 600px;
+    margin: 5px auto;
+    border-radius: 24px;
+    padding: 64px 50px;
+    background-color: antiquewhite;
+}
+.text2{
+    width: 600px;
+    margin: 5px auto;
+    border-radius: 24px;
+    padding: 60px 50px;
+    background-color: antiquewhite;
+}
+.reg{
+    width: 600px;
+    margin: 5px auto;
+    border-radius: 24px;
+    padding: 30px 50px;
+    background-color: antiquewhite;
+    position: relative;
+}
+.butt{
+    margin: 0px auto;
+    border-radius: 24px;
+    position: relative;
+    display: flex;
+}
+footer{
+    width: 600px;
+    margin: 5px auto;
+    border-radius: 24px;
+    padding: 20px 20px;
+    background-color: antiquewhite;
+}
+.field{
+    background-color: antiquewhite;
+}
+input{
+    background-color: antiquewhite;
+}
+label{
+    background-color: antiquewhite;
+}
+
+p{
+    background-color: antiquewhite;
+}
+h1{
+    background-color: antiquewhite;
+}
+h2{
+    background-color: antiquewhite;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    width: 256px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    background-color: darksalmon;
+    border-radius: 16px;
+}
+
+a{
+    text-decoration: none;
+    background-color: darksalmon;
+    color: black;
+    margin: 16px;
+}
+li:hover{
+    
+    transform: scale(1.1);
+    rotate: 5deg;
+    transition: 1.0s;
+}
+li:active{
+    transform: scale(1.2);
+    rotate: -360deg;
+    transition: 1.0s;
+}
+img{
+    max-width: 600px;
+}
+
+@media (min-width: 768px) {
+    .butt{
+        position: absolute;
+        top: 10px;
+        left: 411px;
+    }
+    nav{
+        background-color: antiquewhite;
+        border-radius: 16px;
+    }
+    ul{
+        background-color: antiquewhite;
+    }
+}
+
+@media (min-width: 1024px) {
+    .butt{
+        position: absolute;
+        top: 10px;
+        left: 539px;
+    }
+    nav{
+        background-color: antiquewhite;
+        border-radius: 20px;
+    }
+    ul{
+        background-color: antiquewhite;
+    }
+}
+
+@media (min-width: 1280px) {
+    .butt{
+        position: absolute;
+        top: 10px;
+        left: -40px;
+    }
+    nav{
+        background-color: antiquewhite;
+        border-radius: 20px;
+    }
+    ul{
+        background-color: antiquewhite;
+    }
+}
