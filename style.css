@@ -98,6 +98,9 @@ li:active{
 img{
     max-width: 600px;
 }
+button{
+    background-color: antiquewhite;
+}
 
 @media (min-width: 768px) {
     .butt{
